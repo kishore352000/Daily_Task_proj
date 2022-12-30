@@ -1,0 +1,23 @@
+<!--Interpolation-->
+<h3>{{Title}}</h3>
+<img class="imgg" src="{{imgUrl}}"/>
+<!-- new line -->
+<div>
+<button  disabled={{btnStatus}}>Click Me</button></div>
+
+<!--Property Binding-->
+<h3>Property Binding</h3>
+<img class="imgg" [src]="imgUrl"/>
+<div>
+<button [disabled]="btnStatus">Click Me</button>
+</div><br>
+
+<!--Event Binding-->
+<button (click)="titleChange()">Execute</button>
+
+<!--Two Way Data Binding-->
+<div><br>
+<input type="text" [(ngModel)]="username"/>
+<h3>{{username}}</h3>
+</div>
+

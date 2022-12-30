@@ -1,0 +1,17 @@
+<!--Attribute Directives-->
+<!--Structural Directives-->
+<div *ngIf="isUserLoggedIn">
+<li *ngFor="let user of users">{{user}}</li>
+</div>
+
+
+
+<div [ngSwitch]="username">
+    <div *ngSwitchCase="'kishore'">Welcome kishore</div>
+    <div *ngSwitchCase="'deepu'">Welcome deepu</div>
+    <div *ngSwitchCase="'joshi'">Welcome joshi</div>
+    <div *ngSwitchDefault>Your Input is Incorrect</div>
+</div>
+
+
+
