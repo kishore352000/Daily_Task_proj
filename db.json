@@ -1,0 +1,45 @@
+{
+  "Users":[
+    {
+      "id":11,
+      "name":"kishore",
+      "age":22,
+      "gender":"male"
+    },
+    {
+      "id":22,
+      "name":"hemanth",
+      "age":24,
+      "gender":"male"
+    },
+    {
+      "id":33,
+      "name":"deepak",
+      "age":28,
+      "gender":"male"
+    },
+    {
+      "id":44,
+      "name":"sravani",
+      "age":28,
+      "gender":"female"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

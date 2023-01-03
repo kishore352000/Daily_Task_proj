@@ -1,0 +1,22 @@
+<h2>Angular Services using Http</h2>
+<table class="table mt-2">
+  <thead>
+    <tr class="bg-primary">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name }}</td>
+        <td>{{user.age }}</td>
+        <td>{{user.gender }}</td>
+
+    </tr>
+  </tbody>
+</table>
+
