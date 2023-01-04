@@ -2,21 +2,23 @@
 <h3>{{Title}}</h3>
 <img class="imgg" src="{{imgUrl}}"/>
 <!-- new line -->
-<div>
-<button  disabled={{btnStatus}}>Click Me</button></div>
+<div class="text-center"><br>
+<button class="btn btn-primary"  disabled={{btnStatus}}>Click Me</button></div>
 
 <!--Property Binding-->
 <h3>Property Binding</h3>
 <img class="imgg" [src]="imgUrl"/>
-<div>
-<button [disabled]="btnStatus">Click Me</button>
+<div class="text-center"><br>
+<button class="btn btn-primary" [disabled]="btnStatus">Click Me</button>
 </div><br>
 
 <!--Event Binding-->
-<button (click)="titleChange()">Execute</button>
+<div class="text-center">
+<button class="btn btn-success" (click)="titleChange()">Execute</button>
+</div>
 
 <!--Two Way Data Binding-->
-<div><br>
+<div class="text-center"><br>
 <input type="text" [(ngModel)]="username"/>
 <h3>{{username}}</h3>
 </div>

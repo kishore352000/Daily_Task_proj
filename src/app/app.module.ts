@@ -11,6 +11,7 @@ import { AgePipe } from './age.pipe';
 import { ServicesExaComponent } from './services-exa/services-exa.component';
 import { ServicesHttpComponent } from './services-http/services-http.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     PipesComponent,
     AgePipe,
     ServicesExaComponent,
-    ServicesHttpComponent
+    ServicesHttpComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
